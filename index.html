@@ -2,78 +2,92 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>劉學旻 - 個人網站</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background: #f7f9fc;
-      margin: 0;
-      padding: 40px;
-    }
-    img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
-    h1 {
-      margin-top: 20px;
-      font-size: 2.5em;
-    }
-    h2 {
-      color: #666;
-      font-weight: normal;
-    }
-    .links a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: #0066cc;
-    }
-    .section {
-      max-width: 600px;
-      margin: 40px auto;
-      text-align: left;
-    }
-    .section h3 {
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 6px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>劉學旻 - 個人履歷</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- 照片 -->
-  <img src="711234112-劉學旻.jpg" alt="劉學旻">
-  
-  <!-- 名字  -->
-  <h1>劉學旻</h1>
+  <header>
+    <img src="assets/profile.jpg" alt="劉學旻">
+    <h1>劉學旻</h1>
+    <p>台北大學金融與合作經營學系碩士生</p>
+    <div class="contact">
+      <a href="mailto:min0963936565@gmail.com">📧 min0963936565@gmail.com</a> |
+      <a href="https://github.com/liusyuemin">💻 GitHub</a> |
+      <a href="https://linkedin.com/in/學旻-劉-43a983268/">🔗 LinkedIn</a>
+    </div>
+  </header>
 
+  <main>
+    <section>
+      <h2>關於我</h2>
+      <p>
+        我是劉學旻，目前就讀於國立臺北大學金融與合作經營學系碩士班，
+        對財務分析與生成式 AI 的應用有高度興趣。碩士期間參與國科會研究計畫，
+        並以「排碳企業永續績效與財務表現」為主題進行研究。
+        我樂於溝通、善於團隊合作，做事細心且負責，期望在財務與 AI 的交叉領域發揮所長。
+      </p>
+    </section>
 
-  <!-- 聯絡資訊 -->
-  <div class="links">
-    <a href="mailto:liusyuemin@gmail.com">📧 Email</a>
-    <a href="https://github.com/liusyuemin">💻 GitHub</a>
-    <a href="https://linkedin.com/in/學旻-劉-43a983268/">🔗 LinkedIn</a>
-  </div>
+    <section>
+      <h2>學歷</h2>
+      <ul>
+        <li><strong>國立臺北大學</strong>｜金融與合作經營學系碩士班（2023/9 – 2025/6）</li>
+        <li><strong>國立中正大學</strong>｜財務金融學系學士（2018/9 – 2022/6）</li>
+      </ul>
+    </section>
 
-  <!-- 個人簡介 -->
-  <div class="section">
-    <h3>關於我</h3>
-    <p>
-      
-    </p>
-  </div>
+    <section>
+      <h2>工作與實習經驗</h2>
+      <div class="job">
+        <h3>南亞科技股份有限公司｜財務部實習生（2024/7 – 2024/8）</h3>
+        <ul>
+          <li>使用內部系統與文件協助帳務處理</li>
+          <li>整理與歸檔會計憑證、發票與文件</li>
+          <li>協助行政事務與日常文件管理</li>
+          <li>與財務部門同仁合作學習實務流程</li>
+        </ul>
+      </div>
 
-  <!-- 經歷 -->
-  <div class="section">
-    <h3>經歷</h3>
-    <ul>
-      <li>台北大學金融與合作經營學系碩士班</li>
-      <li>中正大學財務金融學系學士班</li>
-      
-    </ul>
-  </div>
+      <div class="job">
+        <h3>國立臺北大學｜課程助教（2023/9 – 2025/1）</h3>
+        <ul>
+          <li>協助教師課程規劃與學習輔導</li>
+          <li>協助生涯規劃與中級財管課程</li>
+          <li>製作教材、輔導學生報告與作業</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>技能專長</h2>
+      <ul class="skills">
+        <li>財務分析與報告撰寫</li>
+        <li>ESG 與永續金融研究</li>
+        <li>量化資料分析（Excel、R、Python）</li>
+        <li>資料建模與統計分析</li>
+        <li>英文能力：TOEIC 770</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>證照與課程</h2>
+      <ul>
+        <li>NVIDIA：Jetson Nano 開發與 AI 應用</li>
+        <li>NVIDIA：Building RAG Agents with LLMs</li>
+        <li>NVIDIA：Building LLM Applications With Prompt Engineering</li>
+        <li>AWS Educate：Introduction to Generative AI</li>
+        <li>AWS Educate：Machine Learning Foundations</li>
+        <li>Google：Introduction to Generative AI / Responsible AI / Large Language Models</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 劉學旻 | Designed for GitHub Pages</p>
+  </footer>
 
 </body>
 </html>
